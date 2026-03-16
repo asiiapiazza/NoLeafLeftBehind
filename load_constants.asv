@@ -1,0 +1,11 @@
+DISK_SIZE = 7; % dimensione disco per segmentazione 
+PIXEL_THRESHOLD = 1500; % numero di pixel di un edge da escludere
+MED_SIZE = 35; % dimensione filtro mediana
+PIXEL_RATIO_THRESHOLD = 0.8; % ratio da considerare per gli unknown
+MIN_AREA = 2000; % area minima
+TRAIN_PATH = 'dataset\train\';
+TEST_PATH = 'dataset\test\';
+N_IMMAGINI_TEST = 6;
+N_IMMAGINI_TRAIN = 13;
+GT_TRAIN_UNK_ROWS = [5, 15, 18, 42, 47, 55, 68, 77, 87, 107];
+
